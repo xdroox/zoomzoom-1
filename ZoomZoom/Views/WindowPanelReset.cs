@@ -1,0 +1,41 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: ZoomZoom.Views.WindowPanelReset
+// Assembly: ZoomZoom, Version=3.1.2.133, Culture=neutral, PublicKeyToken=null
+// MVID: ABEAA923-4AD5-42AE-8951-938AC0FA3F1E
+// Assembly location: \\storage-n01.thelaughingman.local\stuff\jaime_temp_DONT_dELETE\jnc8651\ZoomZoom.exe
+
+using Microsoft.Practices.Prism.Events;
+using System.Windows;
+
+namespace ZoomZoom.Views
+{
+  public class WindowPanelReset : CompositePresentationEvent<Window>
+  {
+    public WindowPanelReset()
+    {
+      base.\u002Ector();
+label_1:
+      int num1 = -1582188330;
+      while (true)
+      {
+        int num2 = -655435437;
+        uint num3;
+        switch ((num3 = (uint) (num1 ^ num2)) % 3U)
+        {
+          case 0:
+            goto label_1;
+          case 1:
+            goto label_3;
+          case 2:
+            num1 = (int) num3 * -1759270716 ^ -497239766;
+            continue;
+          default:
+            goto label_5;
+        }
+      }
+label_5:
+      return;
+label_3:;
+    }
+  }
+}
